@@ -17,6 +17,6 @@ class Frame(QtWidgets.QMainWindow):
         main.show()
         sys.exit(app.exec_())
         
-    def CreateFrame(x_pos, y_pos, x_size, y_size):
+    def CreateFrame(): # x_pos, y_pos, x_size, y_size
         if __name__ == "__main__":
             Frame.Create()
